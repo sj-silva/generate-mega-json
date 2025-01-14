@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor Mega-Sena Excel para JSON</title>
+    <!-- Example usage of a Lottery Ico -->
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Excel da Mega-Sena para JSON</h1>
+      <p>Faça o upload do arquivo Excel da Mega-Sena</p>
+
+      <form id="uploadForm">
+        <button type="button" id="uploadButton" class="upload-button">
+          Iniciar Upload
+        </button>
+        <p id="uploadMessage" style="display: none"></p>
+        <input type="file" id="fileUpload" accept=".xlsx" />
+        <button type="submit" id="processButton">Converter para JSON</button>
+      </form>
+
+      <div id="resultSection" style="display: none">
+        <p>Arquivo processado com sucesso! Clique abaixo para baixar o JSON:</p>
+        <a id="downloadLink" href="#" download="lottery-results.json"
+          >Download JSON</a
+        >
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="main.js" type="module"></script>
+  </body>
+</html>
