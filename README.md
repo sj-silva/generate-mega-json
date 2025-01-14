@@ -13,7 +13,7 @@ Este projeto permite que usuários convertam facilmente o arquivo Excel oficial 
 1. Primeiro, baixe o arquivo Excel da Mega-Sena:
 
    - Acesse [Loterias Caixa - Mega-Sena](https://loterias.caixa.gov.br/Paginas/Mega-Sena.aspx)
-   - Localize e baixe o arquivo `Mega-Sena.xlsx`
+   - Localize e baixe o arquivo `Mega-Sena.xlsx` clicando em _Download de resultados_ no topo da página
 
 2. Converta o arquivo para JSON:
    - Acesse nossa [página web](https://sj-silva.github.io/generate-mega-json/)
